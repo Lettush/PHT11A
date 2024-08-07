@@ -1,0 +1,29 @@
+- Make directory
+mkdir [directory-name]
+
+- Delete directory
+rmdir [directory-name]
+
+- Rename directory
+mv [oldfoldername] [newfoldername]
+
+- Print/Present Working Directory
+pwd
+
+- List all files and folders
+ls
+
+- Change directory
+cd
+
+- Go back one folder
+cd ..
+
+- Create a file
+touch [filename.extension]
+
+- Rename file
+mv [oldfilename] [newfilename]
+
+- Delete a file
+rm [filename.extension]
