@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Ways to use CSS</title>
+
+    <!-- External -->
+    <link rel="stylesheet" href="three-ways.css">
+
+    <!-- Internal -->
+    <style>
+        /* 
+            selector {
+                properties...
+                color: red;
+                background-color: black;
+            }
+        */
+
+        div {
+            color: lightblue;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- Inline -->
+    <p style="color: red;">This is a paragraph with inline styling.</p>
+
+    <!-- Internal -->
+    <div>This is a div with internal styling.</div>
+
+    <!-- External -->
+    <span>This is a span with external styling.</span>
+</body>
+</html>
