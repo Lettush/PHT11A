@@ -1,0 +1,56 @@
+/* Padding to each of side. */
+.box1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand Padding */
+.box2 {
+    /* 1 value - all sides. */
+    /* 2 values - (top and bottom)(right and left) */
+    /* 3 values - top, (left and right), bottom */
+    /* 4 values - top, right, bottom, left */
+    padding: 10px 20px 30px 40px;
+}
+
+/* Margin all sides. */
+.box3 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+/* Shorthand for Margin */
+.box4 {
+    /* 1 value - all sides. */
+    /* 2 values - (top and bottom)(right and left) */
+    /* 3 values - top, (left and right), bottom */
+    /* 4 values - top, right, bottom, left */
+    margin: 10px 20px 30px 40px;
+}
+
+
+.mix-borders {
+    /* 1 value - all sides. */
+    /* 2 values - (top and bottom)(right and left) */
+    /* 3 values - top, (left and right), bottom */
+    /* 4 values - top, right, bottom, left */
+    background-color: tomato;
+    color: white;
+    border-width: 10px;
+    border-color: blueviolet;
+    border-style: solid dashed dotted double;
+    /* Shorthand */
+    border: 20px solid blue;
+}
+
+.circle-container {
+    height: 70px;
+    width: 70px;
+    background-color: aqua;
+    border-radius: 50%;
+    text-align: center;
+}

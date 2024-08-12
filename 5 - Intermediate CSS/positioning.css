@@ -1,0 +1,33 @@
+/* Relative: Relative to its original position. */
+.relative {
+    background-color: tomato;
+    color: white;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+/* Absolute: Relative to its parent container */
+.absolute {
+    background-color: black;
+    color:white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+/* Fixed: Relative to the viewport */
+.fixed {
+    background-color: aqua;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* Sticky Positioning */
+.sticky {
+    background-color: yellow;
+    color: red;
+    position: sticky;
+    top: 0px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics: Typography, Text Decoration, Colors and Units</title>
+    <style>
+        .text-styling{
+            /* Default: Times New Roman */
+            font-family: Arial, Helvetica, sans-serif;
+
+            /* Keyword Values */
+            font-weight: normal;
+            font-weight: bold;
+            font-weight: bolder;
+            /* Numeric Values */
+            font-weight: 700;
+
+            /* Font Style */
+            font-style: normal;
+            font-style: italic;
+            font-style: oblique;
+
+            /* Text Alignment */
+            text-align: left;
+            text-align: right;
+            text-align: center;
+
+            line-height: normal;
+            line-height: 4;
+            line-height: 32px;
+
+            letter-spacing: normal;
+            letter-spacing: 8px;
+            letter-spacing: -2px;
+        }
+
+        .text-decoration {
+            text-decoration: none;
+            text-decoration: line-through;
+            text-decoration: underline;
+            text-decoration: overline;
+            text-decoration: underline overline line-through;
+        }
+
+        .colors {
+            /* Color Names */
+            color: red;
+            background-color: yellow;
+
+            /* RGB/RGBA */
+            /* 0 - 255 */
+            /* Alpha - Fully Transparent - Full Opaque (0 - 1) */
+            color: rgba(69, 221, 35, 0.977);
+            background-color: rgb(0, 0, 0);
+
+            /* Hexadecimal */
+            /* 0 - 9 A - F */
+            color: #0000ff;
+            background-color: #0caa88;
+        }
+
+        .absolute{
+            font-size: 20px;
+        }
+
+        .relative-unit-em {
+            font-size: 3em;
+        }
+
+        .relative-unit-rem {
+            font-size: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <h2>CSS Typography</h2>
+    <div class="text-styling">This is a sample sentence.</div>
+    
+    <h2>CSS Text Decoration</h2>
+    <div class="text-decoration">This is a sample sentence.</div>
+
+    <h2>CSS Colors</h2>
+    <div class="colors">This is a colorful sentence.</div>
+
+    <h2>CSS Units of Measurement</h2>
+    <p class="absolute">Absolute Unit (px)</p>
+    <div style="font-size: 20px;">
+        <p class="relative-unit-em">Relative Unit(em)</p>
+        <p class="relative-unit-rem">Relative Unit(rem)</p>
+    </div>
+</body>
+</html>
